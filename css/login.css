@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+}
+
+a{
+    text-decoration: none;
+}
+
+.middle{
+    width: 1140px;
+    margin: 0 auto;
+    height: 600px;
+    background: url("../image/login/loginbg.jpg");
+    position: relative;
+    top: 20px;
+}
+
+.login{
+    width: 380px;
+    height: 350px;
+    position: relative;
+    border: 1px solid #808080;
+    background-color: whitesmoke;
+    float: right;
+    box-sizing: border-box;
+    top: 100px;
+    right: 20px;
+    box-sizing: border-box;
+    padding-left: 38px;
+    padding-top: 10px;
+}
+
+.login > p{
+    font-size: 25px;
+}
+
+.input_group{
+    padding-left: 36px;
+    padding-top: 3px;
+    width: 305px;
+    height: 50px;
+    border-collapse: separate;
+    background: aqua;
+    margin: 15px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input_group > input{
+    width: 262px;
+    height: 40px;
+    color: aqua;
+}
+
+.submit{
+    width: 305px;
+    height: 50px;
+    background: #eb604b;
+    border-radius: 5px;
+    color: white;
+}

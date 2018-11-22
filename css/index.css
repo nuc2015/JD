@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+}
+
+a{
+    text-decoration: none;
+}
+.top{
+    margin: 0 auto;
+    width: 1140px;
+    height: 80px;
+    display: flex;
+}
+
+.top-col-1{
+    width: 350px;
+    height: 80px;
+}
+.top-col-2{
+    width: 350px;
+    height: 80px;
+    padding-top: 10px;
+}
+.top-col-3{
+    width: 350px;
+    height: 80px;
+    text-align: center;
+}
+.top-col-3 a{
+    line-height: 80px;
+}
+
+.navbar{
+    width: 1140px;
+    height: 52px;
+    background: black;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.navbar ul{
+    display: flex;
+    font-size: 15px;
+    float: left;
+}
+.navbar > ul > li{
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    margin-left: 35px;
+}
+.navbar > ul > li > a{
+    color: white;
+}
+.navbar > ul > li > a:hover{
+    color: red;
+}
+
+.nav-search{
+    float: right;
+    height: 52px;
+    align-items: center;
+    line-height: 52px;
+    margin-right: 20px;
+}
+.nav-search > input{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+}
+.nav-search > button{
+    width: 55px;
+    height: 34px;
+    border-radius: 5px;
+    background: white;
+}
+
+
+.banner{
+    width: 1140px;
+    height: 450px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.banner_nav{
+    width: 240px;
+    height: 450px;
+    background: #376458;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.banner-inner{
+    width: 900px;
+    height: 473px;
+    float: left;
+}
+
+.banner-inner img{
+    width: 900px;
+}
+
+.banner-inner ul{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: -55px;
+}
+.banner-inner ul:hover{
+    cursor: pointer;
+}
+
+.banner-inner ul >li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin: 0 auto;
+}
+.banner-inner ul >li:hover{
+    cursor: pointer;
+}
+
+.new_product{
+    width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.new_product_title{
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.new_product_context{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+.item_phone{
+    width: 200px;
+    height: 480px;
+    float: left;
+    margin-right: 25px;
+    box-sizing: border-box;
+}
+
+.all_item{
+    width: 900px;
+    height: 480px;
+    float: right;
+    box-sizing: border-box;
+
+}
+
+.item{
+    float: left;
+    height: 180px;
+    margin: 0px 80px;
+}
+
+.bottom{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.list-inline > li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.list-inline > li > a{
+    font-size: 14px;
+    color: #337ab7;
+}
+

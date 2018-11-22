@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+<div class="container">
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="top-col-1">
+            <img src="image/index/JDlogo.jpg" style="with:300px;height:80px">
+        </div>
+        <div class="top-col-2">
+            <img src="image/index/header.jpg" alt="">
+        </div>
+        <div class="top-col-3">
+            <a href="login.html">登录</a>
+            <a href="regist.html">注册</a>
+            <a href="car.html">购物车</a>
+        </div>
+    </div>
+    <!-- 导航条 -->
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="">手机数码</a></li>
+            <li><a href="">电脑办公</a></li>
+            <li><a href="">日用品</a></li>
+        </ul>
+        <div class="nav-search">
+            <input type="text" placeholder="请输入">
+            <button>搜索</button>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <div class="middle">
+        <div class="login">
+            <p>用户登录</p>
+            <form action="#" id="login_check" name="login_check" method="post" onsubmit="return check(this)">
+                <div class="input_group">
+                    <input  type="text" value="会员名/邮箱/手机号" name="username" id="username" onfocus="cls()" onblur="res()"><br>
+                </div>
+                <div class="input_group">
+                    <input  type="text" value="密码" name="password" id="password" onfocus="cls()" onblur="res()"><br>
+                </div>
+                <div class="input_group" style="height: 31px; width: 164px;display: flex">
+                    <div>
+                        <input style="height: 20px; width:120px; color: aqua" name="check_code" id="check_code"  type="text" value="验证码" onfocus="cls()" onblur="res()"><br>
+                    </div>
+                    <div style="margin-left: 10px">
+                        <img src="image/login/check_code.jpg" height="30" alt="">
+                    </div>
+                </div>
+                <p>
+                    <input style="" type="checkbox">
+                    自动登录
+                    <input style="" type="checkbox">
+                    记住用户名
+                </p><br>
+                <input class="submit" type="submit" value="登录">
+            </form>
+        </div>
+    </div>
+    <img src="image/login/footer.jpg" style="position: relative;margin: 0 auto;display: block; top: 50px;" width="1140px" alt="">
+    <!-- 底部 -->
+    <div class="bottom">
+        <ul class="list-inline">
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">招贤纳士</a></li>
+            <li><a href="#">法律声明</a></li>
+            <li><a href="#">友情链接</a></li>
+            <li><a href="#" target="_blank">支付方式</a></li>
+            <li><a href="#" target="_blank">配送方式</a></li>
+            <li><a href="#">服务声明</a></li>
+            <li><a href="#">广告声明</a></li>
+        </ul>
+        <div style="text-align: center;margin-top: 5px;margin-bottom:20px;">
+            Copyright &copy; 2018-2019
+        </div>
+    </div>
+</div>
+</body>
+</html>

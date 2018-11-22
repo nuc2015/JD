@@ -1,0 +1,129 @@
+.context{
+    width: 1140px;
+    height: 220px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header{
+    background: #abfcff;
+    margin-top: 20px;
+    height: 42px;
+}
+.context table > tbody > tr{
+    display: flex;
+}
+
+.context table > tbody > tr > td{
+    display: block;
+    width: 200px;
+}
+
+.info{
+    height: 100px;
+    background: papayawhip;
+}
+
+.settle{
+    position: relative;
+    top: 30px;
+    background: grey;
+    height: 50px;
+    display: flex;
+
+}
+
+.item_1{
+    width: 560px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.item_2{
+    width: 380px;
+}
+
+.item_3{
+    width: 200px;
+    background: #eb604b;
+}
+
+.bottom {
+
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background: darkgray;
+}
+
+.bottom #title {
+    padding-top: 20px;
+    padding-left: 200px;
+    font-weight: bolder;
+}
+
+.bottom .link {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 50px;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bottom .link > ul {
+    padding-left: 120px;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bottom .link a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom .link a:hover {
+    color: red;
+}
+
+.bottom #about {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 50px;
+    float: left;
+}
+
+.bottom #about ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 5px;
+    float: left;
+    list-style-type: none;
+}
+
+.bottom #about ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottom #about ul li a:hover {
+    color: red;
+}
+
+.bottom #identy {
+    position: absolute;
+    margin-top: 250px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.bottom #identy #two,
+#one {
+    padding-left: 200px;
+}
+
+.bottom #identy #one {
+    padding-left: 340px;
+}

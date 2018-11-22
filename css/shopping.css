@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+}
+
+a{
+    text-decoration: none;
+}
+
+/*顶部*/
+.header{
+    height: 30px;
+    background: lightgrey;
+    position: relative;
+    top: 5px;
+}
+
+.my_info{
+    width: 1210px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    color: #999;
+}
+.my_info a{
+    text-align: center;
+    color: #999;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.my_info a:hover{
+    color: red;
+}
+
+.addr{
+    width: 590px;
+}
+.link{
+    width: 620px;
+}
+
+.search{
+    width: 1210px;
+    height: 87px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.select{
+    height: 87px;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.input_box{
+    height: 87px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.input_box > ul{
+    display: flex;
+}
+
+.input_box > ul > li{
+    display: block;
+    width: 50px;
+    margin-left: 25px;
+}
+
+.input_box > ul > li a{
+    color: #171717;
+}
+
+.input_box > ul > li a:hover{
+    color: #027bd6;
+}
+
+.car{
+    width: 140px;
+    height: 36px;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.car a{
+    color: #eb604b;
+    line-height: 36px;
+}
+
+.car p{
+    text-align: center;
+}
+
+.advertise{
+    width: 1210px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.title{
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar{
+    width: 1210px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li{
+    width: 150px;
+    height: 30px;
+}
+
+.navbar li>a{
+    color: white;
+    line-height: 30px;
+}
+.content{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.content-list{
+    width: 1210px;
+    height: 1200px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.content-item{
+    width: 224px;
+    margin: 39px;
+}
+
+.content-item:hover{
+    cursor: pointer;
+}
+
+.content-name p{
+    text-align: center;
+}
+
+.recommend_bar{
+    height: 50px;
+    background: #F5E79E;
+}
+
+.recommend_bar p{
+    line-height: 50px;
+    color: #F08B02;
+    font-size: 20px;
+    text-align: center;
+}
+
+.recommend-list{
+    width: 1210px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.bottom{
+    height: 300px;
+    background: grey;
+}
+
+.footer{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.footer > ul > li{
+    display: inline-block;
+}
+
+.footer li > a{
+    color: white;
+}
